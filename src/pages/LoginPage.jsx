@@ -50,7 +50,7 @@ const LoginPage = () => {
                                 onChange={(e) => setEmail(e.target.value)}
                             />
                         </div>
-                        <button className='w-full py-2 bg-purple-600 text-white font-semibold rounded-md hover:bg-purple-700' onClick={handleLogin}>{isLogging ? 'Loading...' : 'Login'}</button>
+                        <button className='w-full py-2 bg-red-600 text-white font-semibold rounded-md hover:bg-red-700' onClick={handleLogin}>{isLogging ? 'Loading...' : 'Login'}</button>
                     </form>
                     <div className='text-center test-gray-400'>
                         Dont Have an Account?
